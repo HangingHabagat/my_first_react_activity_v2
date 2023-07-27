@@ -1,5 +1,5 @@
 header {
-  background-color: #282c34;
+  background-color: darkgreen;
   display: flexbox;
   justify-content: space-evenly;
   height: 60px;
@@ -33,6 +33,21 @@ header {
   width: 100%;
 }
 
+.Staff1,
+.Staff2 {
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.imgHolder {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
 .Contact {
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
@@ -41,17 +56,58 @@ header {
 }
 
 .Contact form {
+  margin-top: 5%;
+  margin-bottom: 5%;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
+.Contact label {
+  margin-left: 10%;
+}
+.Contact input[type="text"] {
+  margin-top: 1%;
+  margin-left: 10%;
+  width: 80%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  resize: none;
+}
+
+.Contact input[type="email"] {
+  margin-top: 1%;
+  margin-left: 10%;
+  width: 80%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  resize: none;
+}
 .submitBtn {
   background-color: #282c34;
   color: white;
+  height: 40px;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 textarea {
+  margin-top: 1%;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
@@ -62,7 +118,18 @@ textarea {
   border-radius: 4px;
   background-color: #f8f8f8;
   font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
   resize: none;
+}
+
+.Blog {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Blog img {
+  width: 100%;
 }
 
 footer {
@@ -76,15 +143,16 @@ footer {
 }
 
 h1 {
-  color: #282c34;
+  color: brown;
   font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
-  color: #282c34;
+  color: darkgreen;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }

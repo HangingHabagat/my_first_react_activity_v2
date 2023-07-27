@@ -1,4 +1,6 @@
 import karmaabout from "../components/Images/karmaabout.jpg";
+import StaffImg1 from "../components/Images/Staff1.png";
+import StaffImg2 from "../components/Images/Staff2.png";
 const About = () => {
   return (
     <div className='About'>
@@ -32,6 +34,32 @@ const About = () => {
         newsletter, or become a member of our Karma Krew to stay connected and
         be part of our mission.
       </p>
+
+      <h2>Meet the Staff</h2>
+
+      <div className='Staff1'>
+        <div className='imgHolder'>
+          <img src={StaffImg1} alt='staff1' />
+        </div>
+        <div className='nameHolder'>
+          <p>
+            <b>Juan Dela Cruz</b>
+          </p>
+          <p>Head Barista</p>
+        </div>
+      </div>
+
+      <div className='Staff2'>
+        <div className='imgHolder'>
+          <img src={StaffImg2} alt='staff2' />
+        </div>
+        <div className='nameHolder'>
+          <p>
+            <b>Jane Dela Fuente</b>
+          </p>
+          <p>Assistant Barista</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,18 +1,13 @@
-
 const Footer = () => {
+  const today = new Date();
 
-    const today = new Date();
-    
+  return (
+    <footer>
+      <p>
+        <i>Karma Kofi Coffee House</i> &copy; {today.getFullYear()}{" "}
+      </p>
+    </footer>
+  );
+};
 
-    return(
-   
-       <footer>
-           <p><i>"Masarap sa Gabi, lalo na sa Umaga!"</i> Copyright &copy;  {today.getFullYear()}  </p>
-       </footer>
-   
-      )
-     
-   
-   }
-   
-   export default Footer;
+export default Footer;

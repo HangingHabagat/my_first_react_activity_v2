@@ -3,27 +3,39 @@ const Contact = () => {
     <div className='Contact'>
       <h1> Ask Karma Kofi!</h1>
       <p>
-        Do you questions, feedback, or suggestions? Don't hesitate to leave a
-        message below.{" "}
+        Do you have questions, feedback, or suggestions? Don't hesitate to leave
+        a message below.{" "}
       </p>
 
       <form action='/action_page.php'>
-        <label for='fname'>Complete Name:</label>
+        <label for='fname'>
+          <b>Complete Name</b>
+        </label>
         <br />
-        <input type='text' id='cname' name='cname' value='Juan dela Cruz' />
+        <input
+          type='text'
+          id='cname'
+          name='cname'
+          placeholder='Juan dela Cruz'
+        />
         <br />
         <br />
-        <label for='lname'>E-mail:</label>
+        <label for='lname'>
+          <b>E-mail</b>
+        </label>
         <br />
 
         <input
           type='email'
           id='email'
           name='email'
-          value='jdcruz@website.com'
+          placeholder='jdcruz@website.com'
         />
         <br />
         <br />
+        <label for='textarea'>
+          <b>Message</b>
+        </label>
         <textarea>Type Question, Feedback, and/or Suggestions</textarea>
         <br />
         <br />
